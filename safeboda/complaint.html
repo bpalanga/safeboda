@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File a Complaint</title>
+</head>
+<body>
+<h1> File a Complaint</h1>
+<a href="file:///C:/Users/PC/Desktop/boda.html">Home page</a>
+<p>Follow these steps to file a complaint:</p>
+<ol>
+<li>Collect documents related to your purchase.</li>
+<li>Contact the company about your complaint.</li>
+<li>Find help if the company does not solve your complaint.</li>
+</ol>
+<h2>Complaint Form</h2>
+<form action="/submit-complaint" method="post">
+<label for="name">Your Name:</label>
+<input type="text" id="name" name="name" required>
+<br>
+<label for="email">Your Email:</label>
+<input type="email" id="email" name="email" required>
+<br>
+<label for="product">Service:</label>
+<input type="text" id="product" name="product" required>
+<br>
+<label for="details">Complaint Details:</label>
+<textarea id="details" name="details" required></textarea>
+<br>
+<input type="submit" value="Submit Complaint">
+</form>
+</body>
+</html>

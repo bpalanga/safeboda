@@ -1,0 +1,65 @@
+<html>
+<head><title> Fare Prices</title>
+    <style>
+        body {
+            font-family:  sans-serif;
+            margin: 20px;
+            background img: bodaboda-motorcycle.jpg
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: red;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Hi! Welcome our bodaboda website</h1> 
+    <h2>Enter Fare Prices</h2>
+
+    <form id="fareForm">
+        <label for="Bodafare 01">Boda fare:</label>
+        <input type="text" id="bodafare 01" name="bodafare" required>
+
+        <label for="Bodafare 02">Boda fare:</label>
+        <input type="text" id="bodafare 02" name="bodafare" required>
+
+        <label for="Bodafare 03">Boda fare:</label>
+        <input type="text" id="bodafare 03" name="bodafare" required>
+
+        <button type="button" onclick="submitFare()">Submit Fare</button>
+    </form>
+
+    <script>
+        function submitFare() {
+            console.log("Boda fare 01: " + bodafare);
+            console.log("Boda fare 02: " + bodafare);
+            console.log("Boda Fare 03: " + bodafare);
+
+            document.getElementById("fareForm").reset();
+        }
+    </script>
+<footer>
+<table style="background: #9B7814;width="100%;border-collapse:collapse;">
+<tr>
+   <th><small><img src="C:\Users\PC\Pictures\visa.jpg"></small></th>
+   <th><samll><img src="C:\Users\PC\Pictures\mpesa.jpg"></small></th>
+ </tr>    
+</table>
+</footer>
+<a href="file:///C:/Users/PC/Desktop/boda.html">Home page</a>
+</body>
+</html>
